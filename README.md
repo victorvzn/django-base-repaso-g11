@@ -1,5 +1,6 @@
+# Django repaso G11 
 
-# Comandos
+### Comandos
 
 ```bash
 
@@ -22,7 +23,7 @@ python manage.py migrate
 
 ### Settings
 
-```
+```python
 INSTALLED_APPS = [
   'django.contrib.admin',
   'django.contrib.auth',
@@ -51,7 +52,7 @@ class MyModel(models.Model):
 
 ### Model admin
 
-```
+```python
 from django.contrib import admin
 from .models import MyModel
 
